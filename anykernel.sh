@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Nokia 7.1 kernel flasher(boot_a)
+kernel.string=Nokia 7.1 kernel flasher(boot_b)
 do.devicecheck=0
 do.modules=0
 do.systemless=1
@@ -20,7 +20,7 @@ supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/mmcblk0p52;
+block=/dev/block/mmcblk0p53;
 is_slot_device=0;
 ramdisk_compression=auto;
 
